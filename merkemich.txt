@@ -1,0 +1,11 @@
+Git konsole starten
+
+Befehle
+git --version
+git config --global user.name "Marc"
+git config --global user.email deine.mail.adresse@mail.com
+
+git config --list
+
+Dafür brauchst du ein rsa Schlüssel, den kannst du in der Konsole generieren.
+ ssh-keygen -t rsa -C "deine.email.adresse@mail.com"
